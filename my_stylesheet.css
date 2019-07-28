@@ -1,0 +1,83 @@
+/* ------- GLOBAL ------- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2 {
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #9DD9D2;
+}
+.content-wrap {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: auto;
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  min-height: 175px;
+}
+
+
+/* ------- HEADER ------- */
+header {
+  background-color: #F4D06F;
+}
+.profile-img {
+
+  border-radius: 50%;
+  width: 250px;
+}
+
+/* ------- BODY ------- */
+.work-section {
+  background-color: #9DD9D2;
+}
+.company {
+  font-style: italic;
+}
+
+.ed-section {
+  background-color: #FFF3BC;
+}
+
+
+
+/* ------- FOOTER ------- */
+footer {
+  background-color: #FF9C3A;
+  text-align: center;
+}
+
+.contact-links a {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
